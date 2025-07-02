@@ -10,7 +10,7 @@ set commitMSG [lindex $argv 0]
 set cmds [list \
     [list git add .]\
     [list git commit -m $commitMSG]\
-    [list git push]\
+    [list git push --quiet]\
 ]
 
 foreach cmd $cmds {

@@ -89,3 +89,7 @@ proc new_factorial {n} {
 }
 
 puts [new_factorial 5]
+
+puts "Arguments: $argv"
+puts "First argument: [lindex $argv 0]"
+puts "Second argument: [lindex $argv 1]"

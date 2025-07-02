@@ -26,3 +26,6 @@ set input2 [open "file.tcl" r]
 set partial_content [read $input2 613]
 puts $partial_content
 close $input2
+puts "Arguments: $argv"
+puts "First argument: [lindex $argv 0]"
+puts "Second argument: [lindex $argv 1]"

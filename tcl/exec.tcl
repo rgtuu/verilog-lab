@@ -1,2 +1,2 @@
-set results [exec google-chrome "https://www.github.com/rgtuu"] 
+set results [exec google-chrome --quiet "https://www.github.com/rgtuu"] 
 puts $results
